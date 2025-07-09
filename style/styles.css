@@ -1,0 +1,215 @@
+.merriweather-normal {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* Banner section styles */
+.banner {
+    font-family: 'Merriweather', serif;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
+    border-radius: 20px;
+    margin: 050px auto;
+
+}
+
+.banner-intro {
+    color: #FFFFFF;
+    font-size: 32px;
+
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+/* sale styles */
+.sale {
+    font-family: 'inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.sale-value {
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 48px;
+
+}
+
+.sale-promo {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.sale-category {
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+/* party style */
+.party {
+    display: flex;
+    height: 600px;
+    width: 1320px;
+    background: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.party-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 125px;
+}
+
+
+.party-pic {
+    margin: 75px 140px 60px 0px;
+}
+
+.party-welcome-note {
+    font-family: 'merriweather', serif;
+    font-size: 64px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    /* text-align: left; */
+
+}
+
+.party-description {
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.party-join {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.139);
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* party location styles */
+
+.party-location {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.123), rgba(255, 0, 0, 0));
+    width: 1320px;
+    max-height: 480px;
+    margin: 120px auto;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: 'inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 120px 0px;
+    line-height: 1.7em;
+
+}
+.cta-button{
+    background-color: #FF0000;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin-top: 48px;
+}
+
+/* celebration styles */
+
+.celebration{
+    display: flex;
+    width: 1320px;
+    margin: 120px auto;
+    align-items: center;
+    gap: 70px;
+    /* justify-content: space-between; */
+}
+
+.offer-title{
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.upcoming{
+    font-family: 'merriweather', serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgba(7, 2, 17, 1);
+    margin-bottom: 24px;
+}
+.offer-description{
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    width: 400px;
+}
+
+.celebration-pic{
+    border:15px solid #FF0000;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.year{
+    font-family: 'inter', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.short-note{
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 45px;
+}
+.greetings{
+    margin-top: 75px;
+}
