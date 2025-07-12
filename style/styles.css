@@ -394,7 +394,7 @@ footer{
     width: 1340PX;
     margin: 0 auto;
 }
-.text{
+.f-text{
     display: flex;
     justify-content: space-between;
     padding: 105px 205px 50px;
