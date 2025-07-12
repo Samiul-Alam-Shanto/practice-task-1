@@ -26,7 +26,7 @@
     width: 1320px;
     height: 600px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
@@ -52,7 +52,7 @@
     font-family: 'inter', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 120px;
     align-items: center;
 }
@@ -148,7 +148,8 @@
     line-height: 1.7em;
 
 }
-.cta-button{
+
+.cta-button {
     background-color: #FF0000;
     padding: 15px 30px;
     color: #FFFFFF;
@@ -161,7 +162,7 @@
 
 /* celebration styles */
 
-.celebration{
+.celebration {
     display: flex;
     width: 1320px;
     margin: 120px auto;
@@ -170,46 +171,239 @@
     /* justify-content: space-between; */
 }
 
-.offer-title{
+.offer-title {
     font-family: 'inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
     color: #FF0000;
     margin-bottom: 16px;
 }
-.upcoming{
+
+.upcoming {
     font-family: 'merriweather', serif;
     font-size: 48px;
     font-weight: bolder;
     color: rgba(7, 2, 17, 1);
     margin-bottom: 24px;
 }
-.offer-description{
+
+.offer-description {
     font-family: 'inter', sans-serif;
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
     width: 400px;
 }
 
-.celebration-pic{
-    border:15px solid #FF0000;
+.celebration-pic {
+    border: 15px solid #FF0000;
     border-radius: 50%;
     padding: 30px;
 }
 
-.year{
+.year {
     font-family: 'inter', sans-serif;
     font-size: 48px;
     font-weight: bold;
     color: #FF0000;
     margin-bottom: 16px;
 }
-.short-note{
+
+.short-note {
     font-family: 'inter', sans-serif;
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
     margin-bottom: 45px;
 }
-.greetings{
+
+.greetings {
     margin-top: 75px;
+}
+
+/* holiday sale styles */
+
+.holiday-sale {
+    align-items: center;
+    text-align: center;
+    width: 1068px;
+    margin: 120px auto;
+}
+
+.holidaysale-intro {
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(7, 2, 17);
+    margin-bottom: 16px;
+}
+
+.holidaysale-value {
+    font-family: 'merriweather', serif;
+    font-size: 72px;
+    font-weight: bolder;
+    margin-bottom: 28px;
+}
+
+.holidaysale-description {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+
+/* discount-pic styles */
+
+.discount-pic {
+    background-image: url(../images/Rectangle\ 2.png), url(../images/Group\ 44.png);
+    background-repeat: no-repeat;
+    background-position: center bottom, top right;
+    width: 1320px;
+    margin: 120px auto;
+}
+
+/* portfolio styles */
+
+.portfolio {
+    width: 1320px;
+    margin: 120px auto;
+
+}
+
+.text {
+    margin-bottom: 48px;
+}
+
+.text-promo {
+    font-family: 'inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.portfolio-text {
+    font-family: 'merriweather', serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgba(7, 2, 17, 1);
+    margin-bottom: 22px;
+}
+
+.text-description {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    width: 900px;
+}
+
+
+/* subscribe styles */
+.subscribe{
+    width: 1320px;
+    margin: 120px Auto;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 20px;
+    padding-bottom: 80px;
+
+
+}
+.subscribe-text{
+    padding: 80px 212px 0px 212px;
+}
+.newsletter{
+    font-family: 'merriweather', serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgba(7, 2, 17, 1);
+    margin: 40px 0px 22px 0px;
+}
+
+/* .form {
+  display: flex;
+  background-color: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 40px auto;
+  height: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form input[type="email"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0;
+  background-color: transparent;
+  color: #333;
+}
+
+.form button.input-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0;
+  transition: background 0.3s;
+}
+
+.form button.input-button:hover {
+  background-color: darkred;
+} */
+
+.form{
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+
+.form input{
+    padding: 20px 120px 20px 10px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+    margin-top: 50px;
+}
+
+.input-button{
+    background-color: #FF0000;
+    border: none;
+    padding: 20px 40px 20px 10px;
+    color: #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+    /* margin: 0px; */
+    font-weight: bold;
+
+
+}
+
+/* footer styles */
+
+footer{
+    /* margin: 0 auto; */
+    background-color: #070211;
+    color: #FFFFFF;
+}
+.footer-container{
+    text-align: center;
+    width: 1340PX;
+    margin: 0 auto;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 105px 205px 50px;
+}
+.icon{
+    padding: 48px 0px;
+    border-top: 1px solid #746d6d;
+    border-bottom: 1px solid #746d6d;
+}
+.rights{
+    padding: 60px 0px;
 }
